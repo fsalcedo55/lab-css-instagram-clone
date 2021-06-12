@@ -7,4 +7,116 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 90vh;
+  background-image: linear-gradient(#1c5380, #06365f), url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #06365f;
+}
+
+p {
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vh;
+  height: 55vh;
+}
+
+#phone {
+  height: 55vh;
+  padding-left: 8%
+}
+
+.right-half {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50vh;
+  height: 55vh;
+  padding-right: 5%;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.insta-image {
+  width: 30vh;
+}
+
+button {
+  background-image: linear-gradient(#5f85a5, #235683), url(../images/bgtile.png);
+  background-repeat: no-repeat;
+  width: 9.9vh;
+  height: 4.6vh;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.4vh;
+  border-color: #06365f;
+
+}
+
+.home {
+  width: 2.5vh;
+}
+
+.right-body {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  background-image: url(../images/frame.png);
+  background-size: 100%;
+}
+
+.right-body h1, p {
+  padding: 0 10%;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65%;
+  padding-left: 5%;
+}
+
+.right-footer-images {
+  width: 15vh;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 60vh;
+  padding-top: 3vh;
+  font-weight: bold;
+  color: rgb(153, 152, 152);
+}
+
+footer a {
+  color: #06365f;
+  text-decoration: none;
 }
